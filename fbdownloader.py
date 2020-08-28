@@ -36,7 +36,8 @@ else:
                             try:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                             except:
-                                print("\n\033[31m[-] This video doesn't have this quality.\033[m")
+                                print("\n\033[31m[-] This video doesn't have this quality, downloading the best quality.\033[m")
+                                link = search ('sd_src:"(.+?)"', response.text)[1]
                         elif argv[3] == '-sd':
                             try:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
@@ -87,4 +88,4 @@ else:
         except KeyboardInterrupt:
             print('\033[34mCoded by f4ll_py.\033[m\n')
         except Exception as e:
-            print(f'An error has occurred: {e}')
+            print(f'\033[31m[-] An error has occurred: {e}\033[m')
