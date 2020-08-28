@@ -43,6 +43,7 @@ else:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
                             except:
                                 print("\n\033[31m[-] This video doesn't have this quality.\033[m")
+                                link = search ('hd_src:"(.+?)"', response.text)[1]
                         else:
                             print('\n\033[31m[-] Invalid argument, downloading best quality (File name argument before Quality argument).\033[m')
                             
