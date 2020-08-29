@@ -51,6 +51,17 @@ else:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                             except:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
+                        
+                        if argv[3] == '-n' or argv[3] == '--name':
+                            if len(argv) >= 5:
+                                print('\n\033[32m[+] Downloading video...\033[m\n')
+                                urlretrieve(link, f"{argv[4]}.mp4")
+                                print('\033[32m[+] Download successfull.\033[m')
+                            else:
+                                print('\n\033[32m[+] Downloading video...\033[m\n')
+                                urlretrieve(link, "Facebook Video.mp4")
+                                print('\033[32m[+] Download successfull.\033[m')
+
 
                         if len(argv) >= 6:   
                             if argv[4] == '-n' or argv[4] == '--name':
