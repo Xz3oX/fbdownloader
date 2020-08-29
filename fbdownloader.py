@@ -89,4 +89,4 @@ else:
         except KeyboardInterrupt:
             print('\033[34mCoded by f4ll_py.\033[m\n')
         except Exception as e:
-            print(f'\033[31m[-] An error has occurred: {e}\033[m')
+            print(f'\n\033[31m[-] An error has occurred: {e}\033[m')
