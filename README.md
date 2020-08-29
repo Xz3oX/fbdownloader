@@ -15,6 +15,9 @@ Dependencies:
 Documentation:
   - Clone repository:
     - git clone https://github.com/f4ll-py/fbdownloader
+   
+  - Entering in repo:
+    cd fbdownloader
 
   - Install dependencies:
     - pip install -r dependencies.txt
