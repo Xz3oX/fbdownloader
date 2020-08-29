@@ -6,10 +6,8 @@ try:
 
 except KeyboardInterrupt:
     print('\n\033[34mCoded by f4ll_py.\033[m\n')
-
 except Exception as e:
     print(f'\033[31m[-] An error has occurred with a module: \033[m{e}\n')
-
 else:
     if len(argv) == 2:
         if argv[1] == '-h' or argv[1] == '--help':
@@ -51,7 +49,6 @@ else:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                             except:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
-
                         if len(argv) >= 6:   
                             if argv[4] == '-n' or argv[4] == '--name':
                                 print('\n\033[32m[+] Downloading video...\033[m\n')
@@ -67,7 +64,6 @@ else:
                             print('\033[32m[+] Downloading video...\033[m\n')
                             urlretrieve(link, f"Facebook Video.mp4")
                             print('\033[32m[+] Download successfull.\033[m')
-
                     else:
                         print('\n\033[31m[-] The quality was not stipulated, downloading best quality.\033[m')
                         try:
@@ -80,10 +76,8 @@ else:
                         print('\033[32m[+] Download successfull.\033[m')
                 else:
                     print('\n\033[31m[-] Invalid argument, first argument must be link argument.\033[m')
-
             else:
                 print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parametrs.\033[m')
-
         except exceptions.MissingSchema:
             print("\n\033[31m[-] This link doesn't redirect to a Facebook video.\033[m")
         except KeyboardInterrupt:
