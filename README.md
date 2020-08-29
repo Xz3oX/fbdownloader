@@ -17,4 +17,4 @@ Documentation:
     - -l or --link -> Video Link;
     - -hd -> To download HD Quality;
     - -sd -> To download SD Quality;
-    - -n or --name -> To stipulate file name.
+    - -n or --name -> To stipulate file name (Without spaces).
