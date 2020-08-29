@@ -20,8 +20,8 @@ else:
             print('[+]   --link \033[33m{link}\033[m      Video Link')
             print('[+]   -hd                HD Quality')
             print('[+]   -sd                SD Quality')
-            print('[+]   -n \033[33m{name}\033[m          File Name')
-            print('[+]   --name \033[33m{name}\033[m      File Name')
+            print('[+]   -n \033[33m{name}\033[m          File Name (Without spaces)')
+            print('[+]   --name \033[33m{name}\033[m      File Name (Without spaces)')
         else:
             print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m')
     else:
