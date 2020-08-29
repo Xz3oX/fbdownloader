@@ -88,5 +88,7 @@ else:
             print("\n\033[31m[-] This link doesn't redirect to a Facebook video.\033[m")
         except KeyboardInterrupt:
             print('\033[34mCoded by f4ll_py.\033[m\n')
+        except TypeError:
+            print(f'\n\033[31m[-] An error has occurred: Video unavailable.\033[m')
         except Exception as e:
             print(f'\n\033[31m[-] An error has occurred: {e}\033[m')
