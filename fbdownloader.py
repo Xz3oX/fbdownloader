@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 try:
     from re import search
     from requests import get
