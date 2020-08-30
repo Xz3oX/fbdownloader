@@ -1,6 +1,7 @@
 try:
     from re import search
-    from requests import get, exceptions
+    from requests import get
+    from requests.exceptions import MissingSchema
     from urllib.request import urlretrieve
     from sys import argv
 
@@ -78,8 +79,8 @@ else:
                     else:
                         print('\n\033[31m[-] Invalid argument, first argument must be link argument.\033[m')
                 else:
-                    print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parametrs.\033[m')
-            except exceptions.MissingSchema:
+                    print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m')
+            except MissingSchema:
                 print("\n\033[31m[-] This link doesn't redirect to a Facebook video.\033[m")
             except KeyboardInterrupt:
                 print('\033[34mCoded by f4ll_py.\033[m\n')
@@ -88,4 +89,7 @@ else:
             except Exception as e:
                 print(f'\n\033[31m[-] An error has occurred: {e}\033[m')
     class main:
-        fbdownloader(argv[1], argv[2], argv[3], argv[4], argv[5])
+        try:
+            fbdownloader(argv[1], argv[2], argv[3], argv[4], argv[5])
+        except IndexError:
+            print('\n\033[31m[-] One or more arguments are missing. Enter "-h" or "--help" to view valid parameters.\033[m')
