@@ -1,5 +1,7 @@
 # fbdownloader 0.1
 
+![Downloads](https://img.shields.io/github/downloads/f4ll-py/fbdownloader/total)
+
 <img src="https://i.imgur.com/iVAW50O.gif">
 
 **IF YOU HAVE ANOTHER PYTHON VERSION BEYOND Python 3, USE 'python3' BEFORE THE PARAMETERS**
