@@ -14,7 +14,7 @@
 
 **ATTEMPT TO ARGUMENT SEQUENCY: LINK > QUALITY > FILENAME**
 
-**Changelog 0.2: **
+**Changelog 0.2:**
   - Required arguments fixed, now you can just give the video link;
   - Some fixes in code to better run.
 
