@@ -1,4 +1,4 @@
-# fbdownloader 0.1
+# fbdownloader 0.2
 
 ![Downloads](https://img.shields.io/github/downloads/f4ll-py/fbdownloader/total)
 ![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/fbdownloader)
@@ -6,7 +6,7 @@
 ![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/fbdownloader)
 ![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
 
-<img src="https://i.imgur.com/iVAW50O.gif">
+<img src="https://i.imgur.com/wh5eBuC.png">
 
 **IF YOU HAVE ANOTHER PYTHON VERSION BEYOND Python 3, USE 'python3' BEFORE THE PARAMETERS**
 
