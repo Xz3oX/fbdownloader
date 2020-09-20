@@ -11,21 +11,21 @@ except KeyboardInterrupt:
 except Exception as e:
     print(f'\033[31m[-] An error has occurred with a module: \033[m{e}\n')
 else:
-    def fbdownloader(arg1, arg2, arg3, arg4, arg5):
+    def fbdownloader():
         try:
             if len(argv) >= 3:
-                if arg1 == '-l' or arg1 == '--link':
-                    url = arg2
+                if argv[1] == '-l' or argv[1] == '--link':
+                    url = argv[2]
                     response = get(url)
 
                     if len(argv) >= 4:
-                        if arg3 == '-hd':
+                        if argv[3] == '-hd':
                             try:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                             except:
                                 print("\n\033[31m[-] This video doesn't have this quality, downloading the best quality.\033[m")
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
-                        elif arg3 == '-sd':
+                        elif argv[3] == '-sd':
                             try:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
                             except:
@@ -38,10 +38,10 @@ else:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                             except:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
-                        if len(argv) >= 6:   
-                            if arg4 == '-n' or arg4 == '--name':
+                        if len(argv) >= 6: 
+                            if argv[4] == '-n' or argv[4] == '--name':
                                 print('\n\033[32m[+] Downloading video...\033[m\n')
-                                urlretrieve(link, f"{arg5}.mp4")
+                                urlretrieve(link, f"{argv[5]}.mp4")
                                 print('\033[32m[+] Download successfull.\033[m')
                             else:
                                 print('\n\033[31m[-] The file name was not stipulated, downloading with default file name.\033[m\n')
@@ -89,6 +89,6 @@ else:
                 print('[+]   Sequency           Link > Quality > Name')
         else:
             try:
-                fbdownloader(argv[1], argv[2], argv[3], argv[4], argv[5])
+                fbdownloader()
             except IndexError:
                 print('\n\033[31m[-] One or more arguments are missing. Enter "-h" or "--help" to view valid parameters. ( Sequency: Link > Quality > Name )\033[m')
