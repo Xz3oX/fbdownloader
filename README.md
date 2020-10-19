@@ -1,6 +1,6 @@
 # fbdownloader 0.3
 
-<img src="https://i.imgur.com/wh5eBuC.png">
+<img src="https://i.imgur.com/lM9Et0A.png">
 
 [![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader/badge)](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader)
 ![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/fbdownloader)
@@ -16,9 +16,8 @@
 
 **ATTEMPT TO ARGUMENT SEQUENCY: LINK > QUALITY > FILENAME**
 
-**Changelog 0.2:**
-  - Required arguments fixed, now you can just give the video link;
-  - Some fixes in code to better run.
+**Changelog 0.3:**
+  - Code refactor.
 
 Dependencies:
   - Python 3
