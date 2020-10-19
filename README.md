@@ -1,6 +1,6 @@
 # fbdownloader 0.2
 
-![Downloads](https://img.shields.io/github/downloads/f4ll-py/fbdownloader/total)
+[![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader/badge)](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader)
 ![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/fbdownloader)
 ![Issues](https://img.shields.io/github/issues/f4ll-py/fbdownloader)
 ![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/fbdownloader)
