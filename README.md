@@ -1,4 +1,4 @@
-# fbdownloader 0.2
+# fbdownloader 0.3
 
 <img src="https://i.imgur.com/wh5eBuC.png">
 
