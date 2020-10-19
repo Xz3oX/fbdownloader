@@ -22,13 +22,13 @@ else:
                         if argv[3] == '-hd':
                             try:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
-                            except:
+                            except Exception:
                                 print("\n\033[31m[-] This video doesn't have this quality, downloading the best quality.\033[m")
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
                         elif argv[3] == '-sd':
                             try:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
-                            except:
+                            except Exception:
                                 print("\n\033[31m[-] This video doesn't have this quality.\033[m")
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
                         else:
@@ -36,7 +36,7 @@ else:
                             
                             try:
                                 link = search ('hd_src:"(.+?)"', response.text)[1]
-                            except:
+                            except Exception:
                                 link = search ('sd_src:"(.+?)"', response.text)[1]
                         if len(argv) >= 6: 
                             if argv[4] == '-n' or argv[4] == '--name':
@@ -57,7 +57,7 @@ else:
                         print('\n\033[31m[-] The quality was not stipulated, downloading best quality.\033[m')
                         try:
                             link = search ('hd_src:"(.+?)"', response.text)[1]
-                        except:
+                        except Exception:
                             link = search ('sd_src:"(.+?)"', response.text)[1]
                         print('\n\033[31m[-] The file name was not stipulated, downloading with default file name.\033[m\n')
                         print('\033[32m[+] Downloading video...\033[m\n')
