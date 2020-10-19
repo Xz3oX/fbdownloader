@@ -4,9 +4,20 @@ from requests.exceptions import MissingSchema
 from urllib.request import urlretrieve
 from sys import argv
 
+header = '''\033[35m
+                ███████╗██████╗       ██████╗ ██╗     
+                ██╔════╝██╔══██╗      ██╔══██╗██║     
+                █████╗  ██████╔╝█████╗██║  ██║██║     
+                ██╔══╝  ██╔══██╗╚════╝██║  ██║██║     
+                ██║     ██████╔╝      ██████╔╝███████╗
+                ╚═╝     ╚═════╝       ╚═════╝ ╚══════╝
+                        \033[31mCoded by f4ll | 0.3
+'''
+
 def fbdownloader():
     try:
         if len(argv) >= 3:
+            print(header)
             if argv[1] == '-l' or argv[1] == '--link':
                 url = argv[2]
                 response = get(url)
