@@ -2,8 +2,10 @@
 try:
     from modules.downloader import fbdownloader
     from sys import argv
+
 except Exception as e:
     print(f'\033[31m[-] An error has occurred with a module: \033[m{e}\n')
+
 else:
     if argv[1] == '-h' or argv[1] == '--help':
             print('\n[+] Basic Commands:\n')
@@ -19,5 +21,6 @@ else:
     else:
         try:
             fbdownloader()
+            
         except IndexError:
             print('\n\033[31m[-] One or more arguments are missing. Enter "-h" or "--help" to view valid parameters. ( Sequency: Link > Quality > Name )\033[m')
