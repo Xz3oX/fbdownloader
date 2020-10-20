@@ -1,5 +1,3 @@
-# fbdownloader 0.3
-
 <img src="https://i.imgur.com/lM9Et0A.png">
 
 [![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader/badge)](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader)
