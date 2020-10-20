@@ -2,6 +2,7 @@
 try:
     from modules.downloader import fbdownloader
     from sys import argv
+    from modules.banner import banner
 
 except Exception as e:
     print(f'\033[31m[-] An error has occurred with a module: \033[m{e}\n')
@@ -20,6 +21,7 @@ else:
             print('[+]   Sequency           Link > Quality > Name')
     else:
         try:
+            print(banner())
             fbdownloader()
             
         except IndexError:
