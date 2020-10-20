@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 try:
-    from downloader import fbdownloader
+    from modules.downloader import fbdownloader
     from sys import argv
 except Exception as e:
     print(f'\033[31m[-] An error has occurred with a module: \033[m{e}\n')
