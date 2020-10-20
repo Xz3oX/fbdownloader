@@ -6,34 +6,30 @@
 ![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/fbdownloader)
 ![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
 
-<br>
+<br><br>
 
-**IF YOU HAVE ANOTHER PYTHON VERSION BEYOND Python 3, USE 'python3' BEFORE THE PARAMETERS**
+## 🤔 What is FBDownloader?
+  - A tool to download videos of Facebook in HD or SD qualities.
 
-**SOMETIMES GROUP VIDEOS ARE NOT AVAILABLE**
+<br><br>
 
-**ATTEMPT TO ARGUMENT SEQUENCY: LINK > QUALITY > FILENAME**
-
-**Changelog 0.3:**
-  - Code refactor.
-
-Dependencies:
-  - Python 3
-  - Requests
+## ☁️ Download & Install
+  - git clone https://github.com/f4ll-py/fbdownloader
+  - cd fbdownloader
   
-Documentation:
-  - Clone repository:
-    - git clone https://github.com/f4ll-py/fbdownloader
-   
-  - Entering in repo:
-    - cd fbdownloader
+<br><br>
 
-  - Install dependencies:
-    - pip install -r dependencies.txt
-    
-  - Valid parameters:
+## ⚙️ Setup
+  - To install all requirements, run 'pip install -r requirements.txt' in console.
+
+<br><br>
+
+## ❓ Usage
+  - Run 'python main.py' and use valid parameters:
     - -h or --help -> To see available valid parameters;
     - -l or --link -> Video Link;
     - -hd -> To download HD Quality;
     - -sd -> To download SD Quality;
     - -n or --name -> To stipulate file name (Without spaces).
+  - Example: 'python main.py -l https://facebook.com/' -> Speed setup, but, you can't choose quality and filename.
+  - Example: 'python main.py -l https://facebook.com/ -hd -n video' -> Will download your vid, if HD quality exists, and set the filename 'video.mp4'.
