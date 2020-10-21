@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/lM9Et0A.png">
 
-[![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader/badge)](https://www.codefactor.io/repository/github/f4ll-py/fbdownloader)
-![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/fbdownloader)
-![Issues](https://img.shields.io/github/issues/f4ll-py/fbdownloader)
-![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/fbdownloader)
-![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/ff4LL/fbdownloader/badge)](https://www.codefactor.io/repository/github/ff4LL/fbdownloader)
+![LastCommit](https://img.shields.io/github/last-commit/ff4LL/fbdownloader)
+![Issues](https://img.shields.io/github/issues/ff4LL/fbdownloader)
+![PullRequests](https://img.shields.io/github/issues-pr/ff4LL/fbdownloader)
+![Followers](https://img.shields.io/github/followers/ff4LL?label=Follow)
 
 <br><br>
 
@@ -14,7 +14,7 @@
 <br><br>
 
 ## ☁️ Download & Install
-  - git clone https://github.com/f4ll-py/fbdownloader
+  - git clone https://github.com/ff4LL/fbdownloader
   - cd fbdownloader
   
 <br><br>
