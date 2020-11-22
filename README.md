@@ -1,10 +1,10 @@
-<img src="https://i.imgur.com/lM9Et0A.png">
+<img src="">
 
-[![CodeFactor](https://www.codefactor.io/repository/github/h4lkun1/fbdownloader/badge)](https://www.codefactor.io/repository/github/h4lkun1/fbdownloader)
-![LastCommit](https://img.shields.io/github/last-commit/h4lkun1/fbdownloader)
-![Issues](https://img.shields.io/github/issues/h4lkun1/fbdownloader)
-![PullRequests](https://img.shields.io/github/issues-pr/h4lkun1/fbdownloader)
-![Followers](https://img.shields.io/github/followers/h4lkun1?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/h4ikun1/fbdownloader/badge)](https://www.codefactor.io/repository/github/h4ikun1/fbdownloader)
+![LastCommit](https://img.shields.io/github/last-commit/h4ikun1/fbdownloader)
+![Issues](https://img.shields.io/github/issues/h4ikun1/fbdownloader)
+![PullRequests](https://img.shields.io/github/issues-pr/h4ikun1/fbdownloader)
+![Followers](https://img.shields.io/github/followers/h4ikun1?label=Follow)
 
 <br><br>
 
@@ -14,7 +14,7 @@
 <br><br>
 
 ## ☁️ Download & Install
-  - git clone https://github.com/h4lkun1/fbdownloader
+  - git clone https://github.com/h4ikun1/fbdownloader
   - cd fbdownloader
   
 <br><br>
