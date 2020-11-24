@@ -1,10 +1,10 @@
 
 
-[![CodeFactor](https://www.codefactor.io/repository/github/h4ikun1/fbdownloader/badge)](https://www.codefactor.io/repository/github/h4ikun1/fbdownloader)
-![LastCommit](https://img.shields.io/github/last-commit/h4ikun1/fbdownloader)
-![Issues](https://img.shields.io/github/issues/h4ikun1/fbdownloader)
-![PullRequests](https://img.shields.io/github/issues-pr/h4ikun1/fbdownloader)
-![Followers](https://img.shields.io/github/followers/h4ikun1?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/h3llr1s1ng/fbdownloader/badge)](https://www.codefactor.io/repository/github/h3llr1s1ng/fbdownloader)
+![LastCommit](https://img.shields.io/github/last-commit/h3llr1s1ng/fbdownloader)
+![Issues](https://img.shields.io/github/issues/h3llr1s1ng/fbdownloader)
+![PullRequests](https://img.shields.io/github/issues-pr/h3llr1s1ng/fbdownloader)
+![Followers](https://img.shields.io/github/followers/h3llr1s1ng?label=Follow)
 
 <br><br>
 
