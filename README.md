@@ -6,7 +6,7 @@
 <br><br>
 
 ## ☁️ Download & Install
-  - git clone https://github.com/h4ikun1/fbdownloader
+  - git clone https://github.com/z3o/fbdownloader
   - cd fbdownloader
   
 <br><br>
