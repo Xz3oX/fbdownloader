@@ -1,12 +1,10 @@
-<br><br>
-
 ## 🤔 What is FBDownloader?
   - A tool to download videos of Facebook in HD or SD qualities.
 
 <br><br>
 
 ## ☁️ Download & Install
-  - git clone https://github.com/z3o/fbdownloader
+  - git clone https://github.com/z3ox1s/fbdownloader
   - cd fbdownloader
   
 <br><br>
